@@ -1,0 +1,35 @@
+{
+  "name": "websocket-repeater",
+  "version": "1.0.0",
+  "description": "Repeats recived messages to all connected clients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard-focus",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/websocket-repeater.git"
+  },
+  "keywords": [
+    "websocket",
+    "ws",
+    "repeater",
+    "repeat",
+    "forward"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/websocket-repeater/issues"
+  },
+  "homepage": "https://github.com/codealchemist/websocket-repeater#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clivas": "^0.2.0",
+    "printii": "^1.0.0",
+    "standard-focus": "^1.1.2",
+    "ws": "^5.2.1"
+  }
+}
